@@ -40,7 +40,7 @@ We will provide you with the skeleton code that has only the bitmap data. So you
 
 The bitmap data describes the image, pixel by pixel. Each pixel consists of an 8-bit blue (B) byte, a green (G) byte, and a red (R) byte in that order. __Pixels are stored "upside-down"__ with respect to normal image raster scan order, starting in the lower left corner, going from left to right, and then row by row from the bottom to the top of the image. Note that __the number of bytes occupied by each row should be a multiple of 4__. If that's not the case, the remaining bytes are padded with zeroes. The following figure summarizes the structure of the bitmap data.
 
-![BMP image format](https://github.com/snu-csl/ca-pa3/blob/main/bmpformat.png)
+![BMP image format](https://github.com/snu-csl/ca-pa3/blob/master/bmpformat.png)
 
 ### Image resizing
 
@@ -48,7 +48,7 @@ In this project, we only consider scaling down an image by a factor of 2<sup>k</
 
 Note that each pixel has three color values, namely blue (B), green (G), and red (R). Therefore, in order to generate a pixel in the output image, you need to compute the average value for each color separately.
 
-![image resizing example](https://github.com/snu-csl/ca-pa3/blob/main/resize.png?raw=true)
+![image resizing example](https://github.com/snu-csl/ca-pa3/blob/master/resize.png?raw=true)
 
 
 ## Problem specification
