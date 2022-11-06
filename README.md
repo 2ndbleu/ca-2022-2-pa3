@@ -116,7 +116,7 @@ $ brew install gawk gnu-sed gmp mpfr libmpc isl zlib expat texinfo flock
 ### 2. Download the RISC-V GNU Toolchain from Github
 
 ```
-$ git clone https://github.com/riscv/riscv-gnu-toolchain
+$ git clone --recursive https://github.com/riscv/riscv-gnu-toolchain
 ```
 
 ### 3. Configure the RISC-V GNU toolchain
