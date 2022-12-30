@@ -274,7 +274,11 @@ Execution completed
     text	 data	    bss	    dec	    hex	filename
      520	    0	      0	    520	    208	bmpresize.o
   ```
-+2022. 12. 30. added: top 10 and top 20 metric @ deadline -> `312` (top 10), `364` (top 20)
++2022. 12. 30. added: top 10 and top 20 metric @ deadline -> `316` (top 10), `364` (top 20)
+
++2022. 12. 31. added:
+* top 10 score: `224`, `244`, `260`, `300`, `304`, `308`, `312`, `312`, `316`, `316`
+* top 20 score: `320`, `324`, `332`, `332`, `336`, `348`, `352`, `356`, `360`, `364`
 
 
 ## Logistics
